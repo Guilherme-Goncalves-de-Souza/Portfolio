@@ -1,0 +1,175 @@
+html{
+    height: auto;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+
+main h2{
+    text-align: center;
+}
+
+main p {
+    width: 80%;
+    text-align: center;
+}
+
+main .info-box{
+    width: 80%;
+    height: 350px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 50px;
+    border: 1px solid black;
+}
+
+main .info-box .content{
+    display: flex;
+    align-items: center;
+
+    height: 100%;
+    padding: 10px;
+}
+
+main .info-box .left-side{
+    flex: 1;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+main .info-box .left-side .linguagens ul{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 30px;
+}
+
+main .info-box .left-side .linguagens img{
+    width: 45px;
+}
+
+/* Estilizar botões de link: */
+
+main .info-box .left-side .links{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+main .info-box .right-side{
+    flex: 1;
+}
+
+main .info-box .right-side img{
+    width: 95%;
+    border-radius: 40px;
+}
+
+footer{
+    width: 100%;
+    height: 200px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: rgb(229, 229, 229);
+
+    padding: 20px 0px;
+}
+
+footer .links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+@media (max-width: 1000px){
+    main .info-box{
+        height: 540px;
+    }
+
+    main .info-box .content{
+        flex-direction: column;
+    }
+
+    main .info-box .right-side {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main .info-box .right-side img {
+        width: 400px;
+    }
+}
+
+@media (max-width: 600px){
+    main a{
+        width: 120px;
+    }
+
+    main .info-box .left-side .links{
+        gap: 10px;
+    }
+
+    main .info-box .left-side .linguagens img {
+        width: 35px;
+    }
+
+    main .info-box .right-side img {
+        width: 90%;
+    }
+}
+
+@media (max-width: 395px){
+    main .info-box{
+        height: 610px;
+    }
+
+    main .info-box .content {
+        padding: 20px;
+    }
+
+    main .info-box .left-side .links{
+        margin-top: 0px;
+    }
+
+    main .info-box .left-side {
+        gap: 30px;
+    }
+
+    main .info-box .right-side img {
+        width: 100%;
+    }
+
+    main .info-box .right-side {
+        flex: 2;
+    }
+}
+
+@media (max-width: 350px){
+    h2{
+        font-size: 20px;
+    }
+
+    main .info-box .left-side .linguagens img {
+        width: 25px;
+    }
+}

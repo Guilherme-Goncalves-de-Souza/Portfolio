@@ -1,0 +1,85 @@
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+main p {
+    font-size: 18px;
+    width: 80%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+main h2{
+    margin-top: 80px;
+}
+
+main h2:hover{
+    color: rgb(107, 107, 107);
+}
+
+main ul{
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+main .habilidades{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .habilidades .logos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+
+}
+
+main .front-end,
+.banco-dados,
+.ferramentas,
+.sistemas-op{
+    display: flex;
+    flex-direction: column;
+    border-radius: 40px;
+    padding: 20px;
+    gap: 15px;
+
+    text-align: center;
+    background-color: rgb(248, 248, 248);
+}
+
+main .habilidades img{
+    width: 60px;
+    height: 60px;
+}
+
+main .habilidades img:hover{
+    opacity: .5;
+    transform: scale(1.4);
+}
+
+@media (max-width: 600px){
+    main .habilidades img{
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 500px){
+    
+main .front-end ul{
+    flex-wrap: wrap;
+}
+}

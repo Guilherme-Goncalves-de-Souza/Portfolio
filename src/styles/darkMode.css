@@ -1,0 +1,30 @@
+body.darkMode{
+    background-color: rgb(68, 68, 68);
+    color: white;
+}
+
+body.darkMode header nav ul li.active,
+p.active{
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+
+body.darkMode header h1.active-h1{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+body.darkMode main .logos, 
+body.darkMode main .info-box,
+body.darkMode footer{
+    color: black;
+}
+
+body.darkMode main .info-box,
+body.darkMode main form,
+body.darkMode main .front-end, 
+body.darkMode main .banco-dados,
+body.darkMode main .ferramentas,
+body.darkMode main .sistemas-op {
+    background-color: rgb(221, 221, 221);;
+}

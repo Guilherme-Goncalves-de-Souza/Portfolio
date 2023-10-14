@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Guilherme Gonçalves de Souza">
+    <meta name="description" content="Portfólio">
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+
+    <link rel="shortcut icon" href="https://static.vecteezy.com/system/resources/previews/002/986/080/original/letter-g-logo-design-template-free-vector.jpg">
+
+    <link rel="stylesheet" href="../../styles/globalstyle.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../../styles/darkMode.css">
+
+
+    <!-- Google fonts:-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+
+    <title> Portfólio </title>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1> <a href="../../../index.html">GGS</a> </h1>
+            <nav class="menu">
+                <ul>
+                    <li>
+                        <a href="../sobremim/index.html">Sobre mim</a>
+                    </li>
+                    <li>
+                        <a href="../projetos/index.html">Projetos</a>
+                    </li>
+                    <li>
+                        <a href="../educacao/index.html">Educação</a>
+                    </li>
+
+                    <li class="active">
+                        <a href="../contato/index.html">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <nav class="menu-mobile none">
+                <ul>
+                    <li>
+                        <a href="../sobremim/index.html">Sobre mim</a>
+                    </li>
+                    <li>
+                        <a href="../projetos/index.html">Projetos</a>
+                    </li>
+                    <li>
+                        <a href="../educacao/index.html">Educação</a>
+                    </li>
+
+                    <li>
+                        <a href="../contato/index.html">Contato</a>
+                    </li>
+                </ul>
+
+                <button class="sairMenu">
+                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fclipground.com%2Fimages%2Fx-image-png-6.png&f=1&nofb=1&ipt=eeb9c7c4eda6a18ed09932f90dc56188d151a246e4b6e731f79a7b3ab78bbac6&ipo=images" alt="Sair do menu" title="Sair do menu">
+                </button>
+            </nav>
+
+
+            <div class="buttons">
+                <button class="btn-mobile">
+                    <img src="../../../images/list-menu.svg" alt="Menu mobile">
+                </button>
+
+                <button class="toggle-dark-mode">
+                    <img class="img-toggle" src="../../../images/circle-half.svg" 
+                    alt="Mudar tema"
+                    title="Mudar tema">
+                </button>
+            </div>        
+        </header>
+
+        <main>
+            <h1>Formulário de contato:</h1>
+            <form method="get">
+                <input type="text" required placeholder="Digite seu nome" autofocus>
+                <input type="email" required placeholder="Digite seu email">
+                <textarea placeholder="Digite sua mensagem"></textarea>
+                <a type="submit" href="">Enviar</a>
+            </form>
+        </main>
+    </div>
+    <script src="../../scripts/toggle_dark_mode.js"></script>
+    <script src="../../scripts/menu_mobile.js"></script>
+</body>
+
+</html>
