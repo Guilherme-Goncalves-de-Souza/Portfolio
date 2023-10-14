@@ -11,7 +11,7 @@ main{
     gap: 60px;
 }
 
-main h2{
+main h2, main h1{
     text-align: center;
 }
 
@@ -171,5 +171,13 @@ footer .links{
 
     main .info-box .left-side .linguagens img {
         width: 25px;
+    }
+
+    footer{
+        height: 240px;
+    }
+
+    footer .links{
+        flex-direction: column;
     }
 }
